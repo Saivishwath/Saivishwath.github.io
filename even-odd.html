@@ -4,9 +4,13 @@
  <title>Java programm to print even numbers in given limit</title>
  <style>
    .first{
-     background-color:black;
-     color:white;
+     background-color:white;
+     color:blue;
    }
+  .output{
+   background-color:black;
+   color:white;
+  }
   </style> 
   </head>
   <body>
@@ -16,6 +20,7 @@
       {<br>
         public static void main(String[] args)<br>
         {<br>
+         System.out.println("Enter the range");<br>
            Scanner s =new Scanner(System.in);<br>
            int n=s.nextInt();<br>
            for(i=2;i<=n;i++)<br>
@@ -29,5 +34,9 @@
           }<br>
       }<br>
       /<p>
+   <p class="output">
+    Enter the range:10 <br>
+    2,3,5,7
+   </p>
   </body>
 </html>
